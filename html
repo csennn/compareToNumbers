@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var numbers = [10,100,90,45,54,13,1,12,980,48];
+
+            console.log("The initial state of the array: " + numbers);
+
+            function compareToNumbers(a,b){
+                return a-b; //sorting from smallest to largest
+            }
+
+            numbers.sort(compareToNumbers);
+
+            console.log("sorted from smallest to largest: " + numbers);
+
+            function compareToNumbers2(a,b){
+                return b-a; //sorting from largest to smallest
+            }
+            numbers.sort(compareToNumbers2);
+            console.log("sorted from smallest to largest: " + numbers);
+        </script>
+    </head>
+</html>
