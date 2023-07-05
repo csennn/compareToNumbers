@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var dizi = [10,100,90,45,54,13,1,12,980,48];
+            console.log("dizinin ilk hali:" + dizi);
+            function compareToNumbers(a,b){
+                return a-b; //küçükten büyüğe sıralama
+            }
+            dizi.sort(compareToNumbers);
+            console.log("küçükten büyüğe siralanmiş" + dizi);
+            function compareToNumbers2(a,b){
+                return b-a; //büyükten küçüğe sıralama
+            }
+            dizi.sort(compareToNumbers2);
+            console.log("büyükten küçüge" + dizi);
+        </script>
+    </head>
+</html>
